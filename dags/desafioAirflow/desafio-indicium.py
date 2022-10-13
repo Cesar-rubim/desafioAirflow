@@ -26,7 +26,7 @@ def export_final_answer():
     base64_bytes = base64.b64encode(message_bytes)
     base64_message = base64_bytes.decode('ascii')
 
-    with open("final_output.txt", "w") as f:
+    with open("dags/desafioAirflow/data/final_output.txt", "w") as f:
         f.write(base64_message)
     return None
 
