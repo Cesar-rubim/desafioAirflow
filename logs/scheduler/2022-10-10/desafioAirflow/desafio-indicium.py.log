@@ -1,0 +1,63 @@
+[2022-10-10T00:11:00.196+0000] {processor.py:156} INFO - Started process (PID=18888) to work on /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:11:00.197+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/desafioAirflow/desafio-indicium.py for tasks to queue
+[2022-10-10T00:11:00.199+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:11:00.198+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:11:00.894+0000] {processor.py:768} INFO - DAG(s) dict_keys(['desafio-indicium']) retrieved from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:11:01.013+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:11:01.012+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-10T00:11:01.135+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:11:01.134+0000] {dag.py:3328} INFO - Setting next_dagrun for desafio-indicium to 2022-10-09T00:00:00+00:00, run_after=2022-10-10T00:00:00+00:00
+[2022-10-10T00:11:01.211+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/desafioAirflow/desafio-indicium.py took 1.022 seconds
+[2022-10-10T00:12:09.825+0000] {processor.py:156} INFO - Started process (PID=18946) to work on /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:12:10.152+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/desafioAirflow/desafio-indicium.py for tasks to queue
+[2022-10-10T00:12:10.154+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:12:10.154+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:12:10.581+0000] {processor.py:768} INFO - DAG(s) dict_keys(['desafio-indicium']) retrieved from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:12:10.647+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:12:10.646+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-10T00:12:10.689+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:12:10.689+0000] {dag.py:3328} INFO - Setting next_dagrun for desafio-indicium to 2022-10-09T00:00:00+00:00, run_after=2022-10-10T00:00:00+00:00
+[2022-10-10T00:12:10.722+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/desafioAirflow/desafio-indicium.py took 0.903 seconds
+[2022-10-10T00:12:40.762+0000] {processor.py:156} INFO - Started process (PID=19011) to work on /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:12:40.763+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/desafioAirflow/desafio-indicium.py for tasks to queue
+[2022-10-10T00:12:40.764+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:12:40.764+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:12:41.069+0000] {processor.py:768} INFO - DAG(s) dict_keys(['desafio-indicium']) retrieved from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:12:41.132+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:12:41.131+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-10T00:12:41.172+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:12:41.172+0000] {dag.py:3328} INFO - Setting next_dagrun for desafio-indicium to 2022-10-09T00:00:00+00:00, run_after=2022-10-10T00:00:00+00:00
+[2022-10-10T00:12:41.205+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/desafioAirflow/desafio-indicium.py took 0.448 seconds
+[2022-10-10T00:13:11.395+0000] {processor.py:156} INFO - Started process (PID=19069) to work on /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:13:11.396+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/desafioAirflow/desafio-indicium.py for tasks to queue
+[2022-10-10T00:13:11.397+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:13:11.397+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:13:11.727+0000] {processor.py:768} INFO - DAG(s) dict_keys(['desafio-indicium']) retrieved from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:13:11.786+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:13:11.785+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-10T00:13:11.834+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:13:11.834+0000] {dag.py:3328} INFO - Setting next_dagrun for desafio-indicium to 2022-10-09T00:00:00+00:00, run_after=2022-10-10T00:00:00+00:00
+[2022-10-10T00:13:11.862+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/desafioAirflow/desafio-indicium.py took 0.476 seconds
+[2022-10-10T00:13:42.157+0000] {processor.py:156} INFO - Started process (PID=19131) to work on /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:13:42.158+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/desafioAirflow/desafio-indicium.py for tasks to queue
+[2022-10-10T00:13:42.159+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:13:42.158+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:13:42.485+0000] {processor.py:768} INFO - DAG(s) dict_keys(['desafio-indicium']) retrieved from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:13:42.538+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:13:42.537+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-10T00:13:42.596+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:13:42.595+0000] {dag.py:3328} INFO - Setting next_dagrun for desafio-indicium to 2022-10-09T00:00:00+00:00, run_after=2022-10-10T00:00:00+00:00
+[2022-10-10T00:13:42.636+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/desafioAirflow/desafio-indicium.py took 0.485 seconds
+[2022-10-10T00:14:12.745+0000] {processor.py:156} INFO - Started process (PID=19189) to work on /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:14:12.746+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/desafioAirflow/desafio-indicium.py for tasks to queue
+[2022-10-10T00:14:12.748+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:14:12.747+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:14:13.048+0000] {processor.py:768} INFO - DAG(s) dict_keys(['desafio-indicium']) retrieved from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:14:13.097+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:14:13.096+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-10T00:14:13.144+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:14:13.144+0000] {dag.py:3328} INFO - Setting next_dagrun for desafio-indicium to 2022-10-10T00:00:00+00:00, run_after=2022-10-11T00:00:00+00:00
+[2022-10-10T00:14:13.172+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/desafioAirflow/desafio-indicium.py took 0.433 seconds
+[2022-10-10T00:14:43.576+0000] {processor.py:156} INFO - Started process (PID=19253) to work on /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:14:43.577+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/desafioAirflow/desafio-indicium.py for tasks to queue
+[2022-10-10T00:14:43.578+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:14:43.578+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:14:43.885+0000] {processor.py:768} INFO - DAG(s) dict_keys(['desafio-indicium']) retrieved from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:14:43.945+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:14:43.944+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-10T00:14:43.984+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:14:43.983+0000] {dag.py:3328} INFO - Setting next_dagrun for desafio-indicium to 2022-10-10T00:00:00+00:00, run_after=2022-10-11T00:00:00+00:00
+[2022-10-10T00:14:44.010+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/desafioAirflow/desafio-indicium.py took 0.440 seconds
+[2022-10-10T00:15:14.172+0000] {processor.py:156} INFO - Started process (PID=19321) to work on /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:15:14.173+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/desafioAirflow/desafio-indicium.py for tasks to queue
+[2022-10-10T00:15:14.174+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:15:14.174+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:15:14.465+0000] {processor.py:768} INFO - DAG(s) dict_keys(['desafio-indicium']) retrieved from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:15:14.514+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:15:14.513+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-10T00:15:14.547+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:15:14.547+0000] {dag.py:3328} INFO - Setting next_dagrun for desafio-indicium to 2022-10-10T00:00:00+00:00, run_after=2022-10-11T00:00:00+00:00
+[2022-10-10T00:15:14.573+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/desafioAirflow/desafio-indicium.py took 0.406 seconds
+[2022-10-10T00:15:44.626+0000] {processor.py:156} INFO - Started process (PID=19378) to work on /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:15:44.627+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/desafioAirflow/desafio-indicium.py for tasks to queue
+[2022-10-10T00:15:44.627+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:15:44.627+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:15:44.929+0000] {processor.py:768} INFO - DAG(s) dict_keys(['desafio-indicium']) retrieved from /opt/airflow/dags/desafioAirflow/desafio-indicium.py
+[2022-10-10T00:15:44.977+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:15:44.976+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-10T00:15:45.028+0000] {logging_mixin.py:117} INFO - [2022-10-10T00:15:45.027+0000] {dag.py:3328} INFO - Setting next_dagrun for desafio-indicium to 2022-10-10T00:00:00+00:00, run_after=2022-10-11T00:00:00+00:00
+[2022-10-10T00:15:45.058+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/desafioAirflow/desafio-indicium.py took 0.438 seconds
