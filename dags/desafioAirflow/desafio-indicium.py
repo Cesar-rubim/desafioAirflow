@@ -44,10 +44,6 @@ with DAG(
 
 ) as dag:
 
-    dag.doc_md = """
-        Esse é o desafio de Airflow da Indicium.
-    """
-
 
 # task que le a tabela Order do banco de dados
 	task1 = PythonOperator(

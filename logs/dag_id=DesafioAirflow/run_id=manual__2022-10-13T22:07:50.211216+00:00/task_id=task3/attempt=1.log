@@ -1,0 +1,35 @@
+[2022-10-13T22:07:56.719+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DesafioAirflow.task3 manual__2022-10-13T22:07:50.211216+00:00 [queued]>
+[2022-10-13T22:07:56.744+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DesafioAirflow.task3 manual__2022-10-13T22:07:50.211216+00:00 [queued]>
+[2022-10-13T22:07:56.744+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-13T22:07:56.745+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2022-10-13T22:07:56.745+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-13T22:07:56.777+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): task3> on 2022-10-13 22:07:50.211216+00:00
+[2022-10-13T22:07:56.790+0000] {standard_task_runner.py:54} INFO - Started process 220 to run task
+[2022-10-13T22:07:56.797+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'DesafioAirflow', 'task3', 'manual__2022-10-13T22:07:50.211216+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/desafioAirflow/desafio-indicium.py', '--cfg-path', '/tmp/tmp_wxa6nxy']
+[2022-10-13T22:07:56.798+0000] {standard_task_runner.py:83} INFO - Job 43: Subtask task3
+[2022-10-13T22:07:56.800+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/desafioAirflow/desafio-indicium.py
+[2022-10-13T22:07:57.466+0000] {task_command.py:384} INFO - Running <TaskInstance: DesafioAirflow.task3 manual__2022-10-13T22:07:50.211216+00:00 [running]> on host 8943fa1d9abf
+[2022-10-13T22:07:57.629+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=DesafioAirflow
+AIRFLOW_CTX_TASK_ID=task3
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-13T22:07:50.211216+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-13T22:07:50.211216+00:00
+[2022-10-13T22:07:57.650+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/desafioAirflow/desafio-indicium.py", line 23, in export_final_answer
+    my_email = Variable.get("my_email")
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f'Variable {key} does not exist')
+KeyError: 'Variable my_email does not exist'
+[2022-10-13T22:07:57.668+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=DesafioAirflow, task_id=task3, execution_date=20221013T220750, start_date=20221013T220756, end_date=20221013T220757
+[2022-10-13T22:07:57.696+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 43 for task task3 ('Variable my_email does not exist'; 220)
+[2022-10-13T22:07:57.730+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-10-13T22:07:57.772+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
